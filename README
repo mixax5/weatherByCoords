@@ -1,0 +1,11 @@
+## Weather forecast app
+
+# Get started
+
+- Install requirements:
+``pip install -r requirements.txt```
+
+- Start app:
+```python main.py```
+OR
+```python3 main.py```
