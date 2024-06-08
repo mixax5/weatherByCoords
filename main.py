@@ -26,7 +26,7 @@ while True:
             print(f"Latitude must be in range of -90 to 90°. Given: {latitude}.")
             continue
         if longitude > 180 or longitude < -180:
-            print(f"Longitude must be in range of -90 to 90°. Given: {longitude}.")
+            print(f"Longitude must be in range of -180 to 180°. Given: {longitude}.")
             continue
     except ValueError:
         print("Bad format.")
@@ -63,7 +63,6 @@ while True:
     print(f"Longitude: {response.Longitude()}°E")
     print('\n')
 
-    print(f"Timestamp: {current.Time()}")
     print(f"Time of day: {current_is_day}")
     print('\n')
 
